@@ -8,15 +8,15 @@ namespace arbolbb
 {
     internal class Nodo
     {
-        int dato;
-        Nodo izquierda;
-        Nodo derecha;
+        public int Dato { get; set; }
+        public Nodo Izquierda { get; set; }
+        public Nodo Derecha { get; set; }
 
         public Nodo(int dato)
         {
-            this.dato = dato;
-            izquierda = null;
-            derecha = null;
+            this.Dato = dato;
+            Izquierda = null;
+            Derecha = null;
         }
     }
 }
